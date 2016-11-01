@@ -1,0 +1,29 @@
+Design of ConceptNet 5.5:
+
+- [x] Download Numberbatch vectors alongside DB
+- [x] Fix dependencies for conceptnet5.vectors: sklearn? pandas?
+- [x] Querying an assertion gives an 'edges' list that links to itself -- remove the nested level?
+- [x] Wiktionary links should be ExternalURLs, not sources
+- [ ] Fix tests
+
+For ConceptNet 5.5.1:
+
+- [ ] Use standardized language codes in Wiktionary forms
+- [ ] Remove "archaïque" context
+- [ ] Higher weights on monolingual things, lower weights on uncommon languages
+
+Web interface:
+
+- [x] Link to an FAQ
+- [x] Link to the JSON-LD version of the current page
+- [ ] Add a page listing languages
+- [ ] Add a page per language
+- [x] API root should link to docs
+- [x] Serve some Noto web fonts (not CJK ones though)
+- [x] Handle MemoryErrors
+
+ConceptNet 5.6 perhaps:
+
+- [ ] Nodes should have labels that are stored separately from their edges
+- [ ] Relabel vague nodes like "someone" and "something"
+- [ ] Infer things from verb phrases
